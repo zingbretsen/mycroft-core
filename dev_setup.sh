@@ -116,7 +116,7 @@ done
 
 if [[ $(id -u) -eq 0 && $opt_allowroot != true ]] ; then
     echo 'This script should not be run as root or with sudo.'
-    echo 'If you really need to for this, rerun with --allow-root'
+    echo 'If you really need to do this, rerun with --allow-root'
     exit 1
 fi
 
